@@ -28,11 +28,11 @@ module.exports = {
       // Add your rules for custom modules here
       // Learn more about loaders from https://webpack.js.org/loaders/
     ],
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.css'],
-    modulesDirectories: [
-      'node_modules',
-    ],
+    resolve: {
+      extensions: ['', '.js', '.jsx', '.css'],
+      modulesDirectories: [
+        'node_modules',
+      ],
+    },
   },
 };

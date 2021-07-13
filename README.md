@@ -2,6 +2,11 @@
 
 In this project, I built a basic restaurant page using JavaScript and webpack. All pages are build using DOM manipulations.
 
+![screenshot](images/image1.png)
+![screenshot](images/image2.png)
+![screenshot](images/image3.png)
+
+
 ## Built With
 
 - JavaScript

@@ -6,6 +6,7 @@ import contact from './contact';
 
 const content = document.getElementById('content');
 const contentChild = document.createElement('div');
+
 function navBar() {
   const nav = document.createElement('nav');
   const ul = document.createElement('ul');
@@ -44,6 +45,7 @@ const menu = document.getElementById('menu');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
+
 function homePage() {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
@@ -52,6 +54,7 @@ function homePage() {
 
   homeContent.innerHTML = homeInner;
 }
+
 function menuPage() {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
@@ -59,6 +62,7 @@ function menuPage() {
   contentChild.appendChild(menuContent);
   menuContent.innerHTML = menuInner;
 }
+
 function contactPage() {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);

@@ -1,8 +1,8 @@
 import '../style/style.css';
 
-import home from './home';
-import menu from './menu';
-import contact from './contact';
+const homeInner = require('./home');
+const menuInner = require('./menu');
+const contactInner = require('./contact');
 
 const content = document.getElementById('content');
 const contentChild = document.createElement('div');
@@ -38,9 +38,34 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
+const home = document.getElementById('home');
+const contact = document.getElementById('contact');
+const menu = document.getElementById('menu');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
+function homePage() {
+  if (contentChild.childNodes[0]) {
+    contentChild.removeChild(contentChild.childNodes[0]);
+  }
+  contentChild.appendChild(homeContent);
+
+  homeContent.innerHTML = homeInner;
+}
+function menuPage() {
+  if (contentChild.childNodes[0]) {
+    contentChild.removeChild(contentChild.childNodes[0]);
+  }
+  contentChild.appendChild(menuContent);
+  menuContent.innerHTML = menuInner;
+}
+function contactPage() {
+  if (contentChild.childNodes[0]) {
+    contentChild.removeChild(contentChild.childNodes[0]);
+  }
+  contentChild.appendChild(contactContent);
+  contactContent.innerHTML = contactInner;
+}
 
 homePage();
 home.addEventListener('click', homePage);

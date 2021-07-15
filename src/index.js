@@ -38,12 +38,12 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
-const home = document.getElementById('home');
-const contact = document.getElementById('contact');
-const menu = document.getElementById('menu');
-const home1Content = document.createElement('div');
-const menu1Content = document.createElement('div');
-const contact1Content = document.createElement('div');
+const home1 = document.getElementById('home');
+const contact1 = document.getElementById('contact');
+const menu1 = document.getElementById('menu');
+const homeContent = document.createElement('div');
+const menuContent = document.createElement('div');
+const contactContent = document.createElement('div');
 () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);

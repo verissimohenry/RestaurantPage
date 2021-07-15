@@ -1,4 +1,4 @@
-const home = `   <div class="home-con">
+const home_1 = `   <div class="home-con">
 <h5>Best Restaurant in your country</h5><br>
 
 <h5>Made with love since 1999</h5>

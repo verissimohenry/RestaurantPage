@@ -37,35 +37,6 @@ function navBar() {
   content.appendChild(nav);
   content.appendChild(contentChild);
 }
-navBar();
-const home = document.getElementById('home');
-const contact = document.getElementById('contact');
-const menu = document.getElementById('menu');
-const homeContent = document.createElement('div');
-const menuContent = document.createElement('div');
-const contactContent = document.createElement('div');
-() => {
-  if (contentChild.childNodes[0]) {
-    contentChild.removeChild(contentChild.childNodes[0]);
-  }
-  contentChild.appendChild(homeContent);
-
-  homeContent.innerHTML = homeInner;
-}
-() => {
-  if (contentChild.childNodes[0]) {
-    contentChild.removeChild(contentChild.childNodes[0]);
-  }
-  contentChild.appendChild(menuContent);
-  menuContent.innerHTML = menuInner;
-}
-() => {
-  if (contentChild.childNodes[0]) {
-    contentChild.removeChild(contentChild.childNodes[0]);
-  }
-  contentChild.appendChild(contactContent);
-  contactContent.innerHTML = contactInner;
-}
 
 homePage();
 home.addEventListener('click', homePage);

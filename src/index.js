@@ -1,7 +1,7 @@
 import '../style/style.css';
 
 import home from './home';
-import menu from './menu';
+import menu1 from './menu';
 import contact from './contact';
 
 const content = document.getElementById('content');
@@ -38,9 +38,9 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
-const home_1 = document.getElementById('home');
+const home = document.getElementById('home');
 const contact = document.getElementById('contact');
-const menu = document.getElementById('menu');
+const menu1 = document.getElementById('menu');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
@@ -68,6 +68,6 @@ const contactContent = document.createElement('div');
 }
 
 homePage();
-home_1.addEventListener('click', homePage);
+home.addEventListener('click', homePage);
 contact.addEventListener('click', contactPage);
-menu.addEventListener('click', menuPage);
+menu1.addEventListener('click', menuPage);

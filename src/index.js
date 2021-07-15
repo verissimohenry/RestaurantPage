@@ -38,9 +38,9 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
-const home1 = document.getElementById('home');
-const contact1 = document.getElementById('contact');
-const menu1 = document.getElementById('menu');
+const home = document.getElementById('home');
+const contact = document.getElementById('contact');
+const menu = document.getElementById('menu');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');

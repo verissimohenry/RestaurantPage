@@ -1,4 +1,4 @@
-const menu1 = ` <div class="row m-5 p-5">
+const menu = ` <div class="row m-5 p-5">
 <div class="col-4">
 
     <div class="card mb-3" style="width: 18rem;">

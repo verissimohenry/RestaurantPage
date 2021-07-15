@@ -1,9 +1,5 @@
 import '../style/style.css';
 
-import home from './home';
-import menu from './menu';
-import contact from './contact';
-
 const content = document.getElementById('content');
 const contentChild = document.createElement('div');
 function navBar() {

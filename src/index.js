@@ -1,8 +1,14 @@
 import '../style/style.css';
 
-import { home } from './components/home';
-import { menu } from './components/menu';
-import { contact } from './components/contact';
+import {
+  home
+} from './components/home';
+import {
+  menu
+} from './components/menu';
+import {
+  contact
+} from './components/contact';
 
 const linkHome = document.querySelector('.link-home');
 const linkMenu = document.querySelector('.link-menu');
@@ -29,15 +35,15 @@ linkContact.addEventListener('click', () => {
   setDisplayNone(homeDiv)
   setDisplayNone(menuDiv)
   setDisplayBlock(contactDiv)
-  
+
 });
 
 // Sets display - none for passed element
-const setDisplayNone = (el) =>{
-    el.style.display = 'none'
+const setDisplayNone = (el) => {
+  el.style.display = 'none'
 }
 
 // Sets display - block for passed element
-const setDisplayBlock = (el) =>{
-    el.style.display = 'block'
+const setDisplayBlock = (el) => {
+  el.style.display = 'block'
 }

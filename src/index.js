@@ -1,7 +1,7 @@
 import '../style/style.css';
 
 import home from './home';
-import menu1 from './menu';
+import menu from './menu';
 import contact from './contact';
 
 const content = document.getElementById('content');
@@ -40,10 +40,10 @@ function navBar() {
 navBar();
 const home = document.getElementById('home');
 const contact = document.getElementById('contact');
-const menu1 = document.getElementById('menu');
-const homeContent = document.createElement('div');
-const menuContent = document.createElement('div');
-const contactContent = document.createElement('div');
+const menu = document.getElementById('menu');
+const home1Content = document.createElement('div');
+const menu1Content = document.createElement('div');
+const contact1Content = document.createElement('div');
 () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
@@ -70,4 +70,4 @@ const contactContent = document.createElement('div');
 homePage();
 home.addEventListener('click', homePage);
 contact.addEventListener('click', contactPage);
-menu1.addEventListener('click', menuPage);
+menu.addEventListener('click', menuPage);

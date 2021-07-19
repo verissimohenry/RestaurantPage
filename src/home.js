@@ -1,6 +1,4 @@
-const home = () => {
-  const homeSection = document.createElement('div');
-  `   <div class="home-con">
+const home = `   <div class="home-con">
 <h5>Best Restaurant in your country</h5><br>
 
 <h5>Made with love since 1999</h5>
@@ -8,7 +6,4 @@ const home = () => {
 </div>
 <h4>Order online or visit us!</h4>
 </div>`;
-  return homeSection;
-};
-
 export default home;

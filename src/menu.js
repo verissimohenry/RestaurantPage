@@ -1,4 +1,6 @@
-const menu = ` <div class="row m-5 p-5">
+const menu = () => {
+  const menuSection = document.createElement('div');
+` <div class="row m-5 p-5">
 <div class="col-4">
 
     <div class="card mb-3" style="width: 18rem;">
@@ -50,5 +52,8 @@ const menu = ` <div class="row m-5 p-5">
     </div>
 </div>
 </div>`;
+
+return contactSection;
+}
 
 export default menu;

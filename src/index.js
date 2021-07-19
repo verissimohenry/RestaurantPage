@@ -16,8 +16,8 @@ function navBar() {
   const a2 = document.createElement('a');
   const a3 = document.createElement('a');
   li1.classList.add('list-item');
-  a1.innerHTML = 'Home1';
-  a1.id = 'home1';
+  a1.innerHTML = 'Home';
+  a1.id = 'home';
   li2.classList.add('list-item');
   a2.innerHTML = 'Menu';
   a2.id = 'menu';
@@ -38,7 +38,7 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
-const home = document.getElementById('home');
+const home = document.getElementById('home1');
 const contact = document.getElementById('contact');
 const menu = document.getElementById('menu');
 const homeContent = document.createElement('div');

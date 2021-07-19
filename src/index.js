@@ -49,21 +49,21 @@ const homePage = () => {
   contentChild.appendChild(homeContent);
 
   homeContent.innerHTML = homeInner;
-}
+};
 const menuPage = () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }
   contentChild.appendChild(menuContent);
   menuContent.innerHTML = menuInner;
-}
+};
 const contactPage = () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }
   contentChild.appendChild(contactContent);
   contactContent.innerHTML = contactInner;
-}
+};
 
 homePage();
 home.addEventListener('click', homePage);

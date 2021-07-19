@@ -39,7 +39,7 @@ function navBar() {
 }
 navBar();
 const home1 = document.getElementById('home1');
-const contact = document.getElementById('contact');
+const contact1 = document.getElementById('contact1');
 const menu = document.getElementById('menu');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');

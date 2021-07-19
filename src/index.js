@@ -38,9 +38,6 @@ function navBar() {
   content.appendChild(contentChild);
 }
 navBar();
-const home1 = document.getElementById('home1');
-const contact1 = document.getElementById('contact1');
-const menu1 = document.getElementById('menu1');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
@@ -51,7 +48,7 @@ function homePage() {
   contentChild.appendChild(homeContent);
 
   homeContent.innerHTML = homeInner;
-};
+}
 function menuPage() {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);

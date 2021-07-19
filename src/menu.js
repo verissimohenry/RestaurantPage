@@ -1,5 +1,5 @@
-const menu = () => {
-  const menuSection = document.createElement('div');
+function menu() {
+  const menuDiv = document.createElement('div');
 ` <div class="row m-5 p-5">
 <div class="col-4">
 
@@ -53,7 +53,7 @@ const menu = () => {
 </div>
 </div>`;
 
-return contactSection;
+  return menuDiv;
 }
 
 export default menu;

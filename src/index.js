@@ -4,12 +4,12 @@ import home from './home';
 import menu from './menu';
 import contact from './contact';
 
-
 const homeInner = require('./home');
 const menuInner = require('./menu');
 const contactInner = require('./contact');
 const content = document.getElementById('content');
 const contentChild = document.createElement('div');
+
 function navBar() {
   const nav = document.createElement('nav');
   const ul = document.createElement('ul');

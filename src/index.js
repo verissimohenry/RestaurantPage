@@ -41,7 +41,8 @@ navBar();
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
-function homePage() {
+
+const homePage = () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }
@@ -49,14 +50,14 @@ function homePage() {
 
   homeContent.innerHTML = homeInner;
 }
-function menuPage() {
+const menuPage = () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }
   contentChild.appendChild(menuContent);
   menuContent.innerHTML = menuInner;
 }
-function contactPage() {
+const contactPage = () => {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }

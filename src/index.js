@@ -40,7 +40,7 @@ function navBar() {
 navBar();
 const home1 = document.getElementById('home1');
 const contact1 = document.getElementById('contact1');
-const menu = document.getElementById('menu');
+const menu1 = document.getElementById('menu1');
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');

@@ -41,7 +41,7 @@ navBar();
 const homeContent = document.createElement('div');
 const menuContent = document.createElement('div');
 const contactContent = document.createElement('div');
-() => {
+function homePage() {
   if (contentChild.childNodes[0]) {
     contentChild.removeChild(contentChild.childNodes[0]);
   }

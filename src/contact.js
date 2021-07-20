@@ -1,4 +1,4 @@
-const contact = () => {
+function contact() {
   const contactDiv = document.createElement('div');
   `   <div class="home-con">
     <h1>CONTACT</h1><br>
@@ -11,7 +11,7 @@ const contact = () => {
     <h6>From 08:00 till 20:00</h6>
     </div>`;
 
-    return contactSection;
-};
+  return contactDiv;
+}
 
 export default contact;

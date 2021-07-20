@@ -9,7 +9,7 @@ function home() {
     <h4>Order online or visit us!</h4>
     </div>`;
 
-    return homeDiv;
+  return homeDiv;
 }
 
 export default home;

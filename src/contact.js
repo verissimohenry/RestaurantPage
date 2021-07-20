@@ -9,7 +9,7 @@ function contact() {
     <h6>Open from:</h6><br>
     <h6>Monday till Friday</h6><br>
     <h6>From 08:00 till 20:00</h6>
-    </div>`;
+    </div>`
 
   return contactDiv;
 }

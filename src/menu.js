@@ -51,7 +51,7 @@ function menu() {
         </div>
     </div>
 </div>
-</div>`;
+</div>`
 
   return menuDiv;
 }

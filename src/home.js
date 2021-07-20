@@ -7,7 +7,7 @@ function home() {
     <div class="img-div">
     </div>
     <h4>Order online or visit us!</h4>
-    </div>`
+    </div>`;
 
   return homeDiv;
 }

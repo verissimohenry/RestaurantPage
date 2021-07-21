@@ -38,6 +38,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "@webpack-cli/init": "^1.0.3"
+    "@webpack-cli/init": "^1.0.3",
+    "eslint-config-airbnb-base": "^14.2.1"
   }
 }

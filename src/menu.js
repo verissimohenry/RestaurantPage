@@ -1,5 +1,6 @@
 function menu() {
   const menuDiv = document.createElement('div');
+  // eslint-disable-next-line no-unused-expressions
   ` <div class="row m-5 p-5">
 <div class="col-4">
 

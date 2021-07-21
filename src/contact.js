@@ -1,5 +1,6 @@
 function contact() {
   const contactDiv = document.createElement('div');
+  // eslint-disable-next-line no-unused-expressions
   `   <div class="home-con">
     <h1>CONTACT</h1><br>
                <h5>Phone: 123 456 789</h5><br>

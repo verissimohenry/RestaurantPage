@@ -39,6 +39,10 @@ $ git clone git@github.com:verissimohenry/RestaurantPage.git
 $ cd RestaurantPage
 ```
 
+## Usage
+
+double click on  `dist/index.html` to open project in new browser window
+
 ## AUTHOR
 
 👤 **Verissimo Henry**

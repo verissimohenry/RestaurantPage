@@ -1,6 +1,6 @@
 # RestaurantPage
 
-In this project, I built a basic restaurant page using JavaScript and webpack. All pages are build using DOM manipulations.
+In this project, I built a basic restaurant page using JavaScript and webpack. All pages are build using DOM manipulations,The tabs display the introduction, menu and contact info for the restaurant.
 
 ![screenshot](images/image1.png)
 ![screenshot](images/image2.png)

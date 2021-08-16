@@ -38,6 +38,11 @@ $ git clone git@github.com:verissimohenry/RestaurantPage.git
 ```
 $ cd RestaurantPage
 ```
+If you want to repack the file
+- Run npm install on the terminal to install dependancies
+- Run npm run build to pack the files in the src folder
+- Go to the dist folder and open index.html
+- Run npm run start to open it on a live server
 
 ## Usage
 
